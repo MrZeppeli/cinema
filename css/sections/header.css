@@ -3,6 +3,16 @@ h1 {
     text-decoration: underline;
 }
 
+nav .nom_du_site {
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+}
+
+nav .nom_du_site .logo {
+    padding: 20px;
+}
+
 nav {
     padding: 0 45px;
     display: flex;
