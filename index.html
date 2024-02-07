@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/png">
+    <title>Films en Tendance</title>
+</head>
+
+<header>
+    <nav>           
+        <div class="logo">
+            <img src="images/phantom_thieves_logo.png" alt="logo">                
+        </div>
+        <h1>Memento Movies</h1>            
+        <h1 id="monCompteText" style="display: none;">Mon Compte</h1>
+        <button id="logoutbutton" style="display: none;" onclick="logoutUser()">Déconnexion</button>
+        <button id="redirectssobutton" onclick="redirectUserToSSO()">Connexion</button>
+        <a href="search.html"><h1>Rechercher</h1></a>
+    </nav>    
+</header>
+
+
+<body>
+    <h2>Films du moment</h2>
+    <div id="trendingMovies"></div>
+    
+    <button id="loadMore">Charger plus de films</button>
+
+    <script src="js/sso.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

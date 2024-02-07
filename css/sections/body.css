@@ -1,0 +1,133 @@
+#trendingMovies {
+    font-size: larger;
+    font-family: var(--poppins);
+    color: var(--textColor);
+    padding: 20px, 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#trendingMovies p,
+#trendingMovies a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+#trendingMovies p{
+    font-size: medium;
+}
+
+#searchResults p,
+#searchResults a { 
+    font-size: larger;
+    font-family: var(--poppins);
+    color: var(--textColor);
+    padding: 20px, 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+#searchResults a {
+    color: beige;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+#trendingMovies a {
+    color: beige;
+    text-decoration: none;
+}
+
+body .search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+body .search input{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 15px;
+    font-size: 1.2em;
+    outline: none;
+    border: 1px solid #898989;
+    color: beige;
+    background-color: var(--bgColor);    
+    min-width: 250px;
+}
+
+body {
+    align-items: center;
+    padding-top: 60px;
+}
+
+h2 {
+    color: var(--textColor);
+    font-size: xx-large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+body button#loadMore {
+    display: flex;
+    margin-left: 40%;
+    justify-content: center;
+    padding: 5px 15px;
+    font-size: 1.2em;
+    outline: none;
+    border: 1px solid #898989;
+    color: var(--textColor);
+    background-color: var(--bgColor);
+    min-width: 250px;
+}
+
+.informations {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.informations h1 {
+    color: var(--textColor);
+    font-family: var(--poppins);
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+.informations p {
+    padding: 50px;
+    font-size: larger;
+    font-family: var(--poppins);
+    color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px; 
+}
+
+img {
+    border-radius: 20px;
+}
+
+.searchResults {
+    width: auto;
+}

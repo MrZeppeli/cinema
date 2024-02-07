@@ -1,0 +1,51 @@
+h1 {
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+nav {
+    padding: 0 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header button {
+    display: flex;
+    justify-content: center;
+    padding: 5px 15px;
+    font-size: 1.2em;
+    outline: none;
+    border: 1px solid #898989;
+    color: var(--textColor);
+    background-color: var(--bgColor);
+    min-width: 250px;
+}
+
+header nav a {
+    color: var(--textColor);
+    text-decoration: none;
+    font-size: larger;
+    font-family: var(--poppins);
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header a {
+    text-decoration-style: none;
+}
+
+header {
+    color: var(--textColor);
+    font-size: larger;
+    z-index: 1000;
+}
+
+nav .logo img {
+    width : 60px;
+    height: 60px;
+    object-fit: contain;
+}

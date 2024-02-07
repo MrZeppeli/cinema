@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="icon.png" type="image/png">
+    <title>Recherche de Films</title>
+</head>
+
+<header>
+    <nav>           
+        <div class="logo">
+            <img src="images/phantom_thieves_logo.png" alt="logo">                
+        </div>
+        <h1>Memento Movies</h1>            
+        <h1 id="monCompteText" style="display: none;">Mon Compte</h1>
+        <button id="logoutbutton" style="display: none;" onclick="logoutUser()">Déconnexion</button>
+        <button id="redirectssobutton" onclick="redirectUserToSSO()">Connexion</button>
+        <a href="search.html"><h1>Rechercher</h1></a>
+    </nav>    
+</header>
+
+
+<body> 
+    <div class="search">
+        <h2>Quel film cherchez-vous?</h2>
+        <input type="text" id="searchInput" placeholder="Entrez un nom de film...">
+        <div id="searchResults"></div>
+    </div>  
+        
+    <button id="loadMore" style="display: none;">Charger plus de résultats</button>
+
+    <script src="js/search.js"></script>
+</body>
+</html>
